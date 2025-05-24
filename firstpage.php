@@ -32,9 +32,13 @@ include 'fonts.php';
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color:black">Women's</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">example</a></li>
-                        <li><a class="dropdown-item" href="#">example</a></li>
-                        <li><a class="dropdown-item" href="#">example</a></li>
+                        <li><a class="dropdown-item" href="womens-hoodie.php">Hoodies</a></li>
+                        <li><a class="dropdown-item" href="womens-jeans.php">Jeans</a></li>
+                        <li><a class="dropdown-item" href="womens-shirts.php">Shirts</a></li>
+                        <li><a class="dropdown-item" href="womens-longsleeves.php">Longsleeves</a></li>
+                        <li><a class="dropdown-item" href="womens-shorts.php">Shorts</a></li>
+                        <li><a class="dropdown-item" href="womens-skirts.php">Skirts</a></li>
+                        <li><a class="dropdown-item" href="womens-accessories.php">Accessories</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
