@@ -1,4 +1,3 @@
-
 <?php 
 include 'fonts.php';
 ?>
@@ -13,48 +12,173 @@ include 'fonts.php';
 
     <title> Devsun</title>
 </head>
-<body>
+<body>  
     
     <header>
-    
-
-        <h1 class="logo">Devsun</h1>
+        <div><h1 class="logo"><a href="firstpage.php" class="logo-link">Devsun</a></h1>
      
         <ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="#">Men's</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Women's</a>
+        <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color:black">Men's</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><a class="dropdown-item" href="#">example</a></li>
+      <li><a class="dropdown-item" href="#">example</a></li>
+      <li><a class="dropdown-item" href="#">example</a></li>
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color:black">Women's</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">example</a></li>
+      <li><a class="dropdown-item" href="#">example</a></li>
+      <li><a class="dropdown-item" href="#">example</a></li>
+    </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color:black">Unisex</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">example</a></li>
+      <li><a class="dropdown-item" href="#">example</a></li>
+      <li><a class="dropdown-item" href="#">example</a></li>
+    </ul>
   </li>
-</ul>
+</ul></div>
+        
         
     </header> 
 
-    <div class="first-page-text">
-        <h1 class="quote">Modern furniture <h4>Choose from a wide variety of wooden-made furniture</h4></h1>
-        <button class="shop-btn"><a href="shop.php" class="shop-link">Go shopping</a></button> 
-        
+<div class="container-fluid p-0">
+  <div class="row g-0">
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/unisex-jorts.jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Unisex Jorts</h5>
+          <p class="card-text">$34.99</p>
+        </div>
+      </div>
     </div>
 
-    
- 
-   
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/men-hoodie (6).jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Men's Hoodie</h5>
+          <p class="card-text">$49.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/men-longsleeve.jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Men's Longsleeve</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/women-bootcut.JPG" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Women's Bootcut</h5>
+          <p class="card-text">$39.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/women-shirt (7).JPG" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Women's Shirt</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/women-skirt.jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Women's Skirt</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/men-shirt (5).JPG" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Men's Shirt</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/unisex-baggy (2).jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Unisex Baggy</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/unisex-dirtywashed-baggyjeans-1.jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Unisex Dirtywashed Baggy</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/women-flares.jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Women's Flares</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/unisex-shirt.JPG" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Unisex Shirt</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="card rounded-0">
+        <img src="clothes/men-baggy (2).png" class="card-img-top rounded-0" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Men's Baggy</h5>
+          <p class="card-text">$29.99</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
 
 <style>
+
+  .nav-tabs {
+    border-bottom: none !important;
+  }
+
 
 body {
     overflow-x: hidden;
@@ -96,7 +220,7 @@ body {
         a {
             color: black;
             text-decoration: none;
-            font-family:'Lucida Sans';
+            font-family:'Prata', serif;
         }
 
         .shopping-cart{
@@ -110,6 +234,11 @@ body {
             font-weight: 400;
             text-align: center;
             margin-left: 50px;
+          
+        }
+        .logo-link{
+            text-decoration: none;
+            color: black; 
             font-family: "UnifrakturMaguntia", cursive;
         }
         .first-page-text{
@@ -161,6 +290,37 @@ body {
     }
 }
         
+.card {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.card-img-top {
+    aspect-ratio: 1;
+    object-fit: fit;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Prata', serif;
+}
+
+.card-text {
+    font-weight: bold;
+    color: #333;
+    font-family: 'Prata', serif;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 0.75rem;
+    }
+}
 </style>
 
 <script>
